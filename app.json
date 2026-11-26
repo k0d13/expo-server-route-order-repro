@@ -3,22 +3,11 @@
     "name": "expo-server-route-order-repro",
     "slug": "expo-server-route-order-repro",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
-    },
+    "scheme": "expo-server-route-order-repro",
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "output": "server",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
   }
 }
